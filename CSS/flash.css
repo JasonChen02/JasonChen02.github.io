@@ -1,0 +1,713 @@
+.flash{
+	width: 100%;
+	height: 460px;
+	position: relative;
+	margin-top: 100px;
+}
+
+.flashbox{
+	width: 1226px;
+	height: 100%;
+	margin: auto;
+	position: relative;
+}
+.flashslideul li{
+	width: 1226px;
+	height: 462px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+
+.flashslideul li.flashslideulli1{
+	z-index: 1;
+	opacity: 1;
+}
+
+.flashslideul li img{
+	width: 1226px;
+	height: 462px;
+}
+.flashnav a{
+	display: block;
+    position: absolute;
+    top: 200px;
+    z-index: 2;
+    font-size: 36px;
+    width: 40px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+}
+.flashnav a:hover{
+	background: #757575;
+	color: #FFFFFF;
+}
+.flashnav a:nth-of-type(1){
+	left: 235px;
+}
+.flashnav a:nth-of-type(2){
+	right: 0px;
+}
+.flashslideol{
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+	z-index: 2;
+	
+}
+.flashslideol li{
+	float: left;
+	width: 5px;
+	height: 5px;
+	border: 2px solid #757575;
+	
+	 background: rgba(255,255,255,0.4);
+	border-radius: 50%;
+	margin: 0px 5px;
+	cursor: pointer;
+}
+.flashslideolli1{
+	background: #FFFFFF;
+	border-color: #FF6700;
+	box-shadow: 0px 0px 3px black;
+}
+.flashslideol li:hover{
+	   background: #CCCCCC;
+	   border-color: rgba(0,0,0,0.4);
+}
+.nav2{
+	position: absolute;
+	width: 234px;
+	height: 460px;
+	left: 0px;
+	top: 0px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 1px transparent solid;
+	z-index: 2;
+}
+
+.nav2 ul {
+	margin-top: 20px;
+	height: 22px;
+}
+
+.navlist{
+	width: 100%;
+	height: 40px;
+}
+
+	
+.navlist a{
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	height: 100%;
+	width: 210px;
+	color: white;
+	line-height: 40px;
+	padding-left: 24px;
+	
+}
+
+.navlist:hover {
+	background-color: #FF6700;
+}
+.navlist a i{
+	margin-right: 12px;
+	margin-top: 10px;
+    font-size: 16px;
+    line-height: 16px;
+    float: right;
+}
+.navlist:hover .slidebox1{
+	display: block;
+}
+.slidebox1{
+	width: 795px;
+	position: absolute;
+	height: 458px;
+	border: 1px solid rgba(224,224,224,0.5);
+	display: none;
+	left: 236px;
+	top: 0px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+	background: white;
+}
+.list1{
+	float: left;
+	width:265px;
+	margin-right: 12px;       
+}
+
+.list1 li{
+	margin-right: 12px;
+    vertical-align: middle;    	 
+}
+
+.list1 li a{
+	width: 265px;
+	height: 77px;
+
+      display: block;   
+    line-height: 40px;
+   
+}
+.list1 li img{
+	width: 40px;
+	height: 40px;
+	border: 0;
+	position: absolute;
+	left: -1px;
+	padding-left: 18px;
+}
+.list1  li span {
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	color: #333;
+	width: 76px;
+	height: 16px;
+	line-height: 40px;	
+	float: left;
+	margin-left: 48px;
+	
+}
+
+.list1  li span:hover{
+	color: #FF6700;
+}
+.list2{
+	float: left;
+	width:265px;
+	margin-left: -20px;
+    
+  
+    
+}
+.list2 li{
+	margin-right: 12px;
+    vertical-align: middle;
+     display: list-item;
+    	 
+}
+.list2 li a{
+	width: 265px;
+	height: 77px;
+    text-decoration: none;
+      display: block;
+    line-height: 40px;
+   
+}
+.list2 li img{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border: 0;
+	position: relative;
+ 
+}
+.list2 li span {
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	color: #333;
+	width: 80px;
+	height: 16px;
+	line-height: 40px;	
+    float: right;
+     margin-right: 128px; 
+   
+}
+.list2 li span:hover{
+	color: #FF6700;
+
+}
+
+.list3{
+	float: left;
+	width:265px;
+	margin-left: -20px;
+    
+  
+    
+}
+.list3 li{
+	margin-right: 12px;
+    vertical-align: middle;
+     display: list-item;
+    	 
+}
+.list3 li a{
+	width: 265px;
+	height: 77px;
+    text-decoration: none;
+      display: block;
+    line-height: 40px;
+   
+}
+.list3 li img{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border: 0;
+	position: relative;
+ 
+}
+.list3 li span {
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	color: #333;
+	width: 96px;
+	height: 16px;
+	line-height: 40px;	
+    float: right;
+     margin-right: 113px; 
+   
+}
+.list3 li span:hover{
+	color: #FF6700;
+	
+}
+.list4{
+	float: left;
+	width:265px;
+	margin-right: 12px;       
+}
+
+.list4 li{
+	margin-right: 12px;
+    vertical-align: middle;    	 
+}
+
+.list4 li a{
+	width: 265px;
+	height: 77px;
+
+      display: block;   
+    line-height: 40px;
+   
+}
+.list4 li img{
+	width: 40px;
+	height: 40px;
+	border: 0;
+	position: absolute;
+	left: -1px;
+	padding-left: 18px;
+}
+.list4  li span {
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	color: #333;
+	width: 126px;
+	height: 16px;
+	line-height: 40px;	
+	float: left;
+	margin-left: 48px;
+	
+}
+
+.list4  li span:hover{
+	color: #FF6700;
+}
+.list5{
+	float: left;
+	width:265px;
+	margin-left: -20px;
+    
+  
+    
+}
+.list5 li{
+	margin-right: 12px;
+    vertical-align: middle;
+     display: list-item;
+    	 
+}
+.list5 li a{
+	width: 265px;
+	height: 77px;
+    text-decoration: none;
+      display: block;
+    line-height: 40px;
+   
+}
+.list5 li img{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border: 0;
+	position: relative;
+ 
+}
+.list5 li span {
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	color: #333;
+	width: 128px;
+	height: 16px;
+	line-height: 40px;	
+    float: right;
+     margin-right: 80px; 
+   
+}
+.list5 li span:hover{
+	color: #FF6700;
+
+}
+.list6{
+	float: right;
+	width:265px;
+	top: 0px;
+	
+    
+  
+    
+}
+.list6 li{
+	margin-right: 12px;
+    vertical-align: middle;
+     display: list-item;
+    	 
+}
+.list6 li a{
+	width: 265px;
+	height: 77px;
+    text-decoration: none;
+      display: block;
+    line-height: 40px;
+   
+}
+.list6 li img{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border: 0;
+	position: relative;
+ 
+}
+.list6 li span {
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	color: #333;
+	width: 118px;
+	height: 16px;
+	line-height: 40px;	
+    float: right;
+     margin-right: 106px; 
+   
+}
+.list6 li span:hover{
+	color: #FF6700;
+	
+}
+.navlist:hover .slidebox2{
+	display: block;
+}
+.slidebox2{
+	width: 988px;
+	position: absolute;
+	height: 458px;
+	border: 1px solid rgba(224,224,224,0.5);
+	display: none;
+	left: 236px;
+	top: 0px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+	background: white;
+}
+.list7{
+	float: left;
+	width:265px;
+	margin-left: -20px;
+    
+  
+    
+}
+.list7 li{
+	margin-right: 12px;
+    vertical-align: middle;
+     display: list-item;
+    	 
+}
+.list7 li a{
+	width: 248px;
+	height: 77px;
+    text-decoration: none;
+      display: block;
+    line-height: 40px;
+   
+}
+.list7 li img{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border: 0;
+	position: relative;
+	margin-left: -25px;
+ 
+}
+.list7 li span {
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	color: #333;
+	width: 142px;
+	height: 16px;
+	line-height: 40px;	
+    float: right;
+     margin-right: 80px; 
+   
+}
+.list7 li span:hover{
+	color: #FF6700;
+	}
+.list8{
+	float: left;
+	width:248px;
+	top: 0px;
+	margin-left: -50px;
+	   
+}
+.list8 li{
+	
+    vertical-align: middle;
+     display: list-item;
+    	 
+}
+.list8 li a{
+	width: 252px;
+	height: 77px;
+    text-decoration: none;
+      display: block;
+    line-height: 40px;
+   
+}
+.list8 li img{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border: 0;
+	position: relative;
+ 
+}
+.list8 li span {
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	color: #333;
+	width: 106px;
+	height: 16px;
+	line-height: 40px;	
+    float: right;
+     margin-right: 96px; 
+   
+}
+.list8 li span:hover{
+	color: #FF6700;
+	
+}
+.list9{
+	float: left;
+	width:248px;
+	top: 0px;
+	margin-left: -5px;
+	   
+}
+.list9 li{
+	
+    vertical-align: middle;
+     display: list-item;
+    	 
+}
+.list9 li a{
+	width: 260px;
+	height: 77px;
+    text-decoration: none;
+      display: block;
+    line-height: 40px;
+   
+}
+.list9 li img{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border: 0;
+	position: relative;
+ 
+}
+.list9 li span {
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	color: #333;
+	width: 106px;
+	height: 16px;
+	line-height: 40px;	
+    float: right;
+     margin-right: 100px; 
+   
+}
+.list9 li span:hover{
+	color: #FF6700;
+	
+}
+.list10{
+	float: left;
+	width:265px;
+	margin-right: 12px;       
+}
+
+.list10 li{
+	margin-right: 12px;
+    vertical-align: middle;    	 
+}
+
+.list10 li a{
+	width: 265px;
+	height: 77px;
+      display: block;   
+    line-height: 40px;
+   
+}
+.list10 li img{
+	width: 40px;
+	height: 40px;
+	border: 0;
+	position: absolute;
+	left: -1px;
+	padding-left: 18px;
+}
+.list10  li span {
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	color: #333;
+	width: 142px;
+	height: 16px;
+	line-height: 40px;	
+    float: right;
+     margin-right: 80px; 
+	
+}
+
+.list10  li span:hover{
+	color: #FF6700;
+}
+
+.slidebox3{
+	width: 531px;
+	position: absolute;
+	height: 458px;
+	border: 1px solid rgba(224,224,224,0.5);
+	display: none;
+	left: 236px;
+	top: 0px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+	background: white;
+}
+.navlist:hover .slidebox3{
+	display: block;
+}
+.list11{
+	float: left;
+	width:248px;
+	top: 0px;
+	margin-left: -50px;
+	   
+}
+.list11 li{
+	
+    vertical-align: middle;
+     display: list-item;
+    	 
+}
+.list11 li a{
+	width: 252px;
+	height: 77px;
+    text-decoration: none;
+      display: block;
+    line-height: 40px;
+   
+}
+.list11 li img{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border: 0;
+	position: relative;
+ 
+}
+.list11 li span {
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	color: #333;
+	width: 126px;
+	height: 16px;
+	line-height: 40px;	
+    float: right;
+     margin-right: 76px; 
+   
+}
+.list11 li span:hover{
+	color: #FF6700;
+	
+}
+.list12{
+	float: left;
+	width:248px;
+	top: 0px;
+	margin-left: 20px;
+	   
+}
+.list12 li{
+	
+    vertical-align: middle;
+     display: list-item;
+    	 
+}
+.list12 li a{
+	width: 260px;
+	height: 77px;
+    text-decoration: none;
+      display: block;
+    line-height: 40px;
+   
+}
+.list12 li img{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border: 0;
+	position: relative;
+ 
+}
+.list12 li span {
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	color: #333;
+	width: 126px;
+	height: 16px;
+	line-height: 40px;	
+    float: right;
+     margin-right: 76px; 
+   
+}
+.list12 li span:hover{
+	color: #FF6700;
+	
+}
+.slidebox4{
+	width: 256px;
+	position: absolute;
+	height: 458px;
+	border: 1px solid rgba(224,224,224,0.5);
+	display: none;
+	left: 236px;
+	top: 0px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+	background: white;
+}
+.navlist:hover .slidebox4{
+	display: block;
+}

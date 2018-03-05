@@ -1,0 +1,343 @@
+.header {
+	height:40px;
+	width:100%;
+	background: #333;
+}
+
+.top {
+	width: 1226px;
+	height: 42px;
+	margin-left: 40px;
+	font-size: 12px;
+	line-height: 40px;
+	position: relative;
+}
+
+.top1 {
+	width: 600px;
+	margin-left: 56px;
+	float: left;
+	position: absolute;
+}	
+.top a {
+	color: #94b0a4;
+	text-decoration: none;
+	font-size: 12px;
+	margin-right: 6px;
+	
+}
+.top a:hover{
+	color: #fff;
+}
+
+.top a::after{
+	content: "|";
+	margin-left: 7px;
+	color: #393e3e;
+}
+.top a:last-child {
+	margin: 0px;
+}
+
+.top a:last-child::after{
+	content: "";
+	margin: opx;
+	padding: opx;
+	
+}
+
+.top2{
+	width: 160px;
+	float: right;
+   
+}
+
+.top3{
+	width: 120px;
+	margin-right: -50px;
+	height: 40px;
+	float: right;
+	position: relative;
+	background: #424242;
+	color: #b0b0b0;
+	transition: 0.1s ease 0.4s;
+	
+}
+.top3 i {
+	margin: 0px 10px 0px 10px;
+	float: left;
+}
+.top33{
+	position: absolute;
+	height: 0px;
+	right: 0px;
+	width: 320px;
+	text-align: center;
+	top: 40px;
+	background: #fff;	
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+	transition: 0.5s;
+}
+.top3:hover{
+	transition: 0.1s ease 0s;
+	color: #ff6700;
+	background-color: #fff;
+}
+
+.top3:hover .top33 {
+	height: 100px;
+}
+
+.navbox{
+	height: 100px;
+	width:1226px;
+	margin: auto;
+	
+	
+}
+.logo1 {
+
+	float: left;
+	width: 55px;
+	height: 55px;
+    margin-top: 22px;
+    margin-right: 180px;
+    
+
+}
+
+
+}
+.navul{
+	width: 695px;
+	height: 100px;
+	
+
+
+	
+}
+.navul li{
+	float: left;
+	
+	padding-right: 25px;
+	margin-top: 38px;
+
+	
+}
+.navul li span{
+	font-size: 16px;
+	text-align: center;
+	
+}
+
+.navul li:hover {
+	color: #ff6700;
+	cursor: pointer;
+
+	
+}
+
+.nav-topbox{
+	position: absolute;
+	height: 0px;
+	overflow: hidden;
+	top:125px;
+	left: 0px;
+	right: 0px;
+	transition: height 0.2s;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.18);
+	z-index: 5;
+	background-color: #FFFFFF;
+}
+.nav-topbox:before {
+	display: inline-block;
+	width: 100%;
+	content: "";
+	background: #E0E0E0;
+	height: 1px;
+	
+	}
+	
+
+
+.navul li:hover .nav-topbox {
+	height: 230px;
+	font-size: 12px;
+	color: #333;}
+	
+
+.topbox1 {
+	width: 1226px;
+	height: 180px;
+	margin: 0 auto 16px;
+	position: relative;	
+	display: block;
+}
+.topbox1 li{
+	border-right: 1px solid #dedede;
+	height: 115px;
+	text-align: center;
+	position: relative;
+    margin-left: 18px;
+        display: list-item;
+        padding-right: 18px;
+}
+
+
+.topbox1 li:last-of-type{
+	border-right:0px
+}
+
+.uptext{
+	display: inline-block;
+	border: 1px solid #FF6700;
+	width: 64px;
+	height: 18px;
+	position: relative;	
+	top: -157px;	   	
+}
+
+.fouruptext{
+	display: inline-block;
+	border: 1px solid #FF6700;
+	width: 90px;
+	height: 18px;
+	position: relative;	
+	top: -157px;
+}
+.fouruptext p{
+	text-align: center;
+	font-size: 12px;
+	color: #FF6700;
+}
+
+.threeuptext{
+	display: inline-block;
+	border: 1px solid #FF6700;
+	width: 70px;
+	height: 18px;
+	position: relative;	
+	top: -157px;
+	
+}
+.threeuptext p{
+	text-align: center;
+	font-size: 12px;
+	color: #FF6700;
+}
+.uptext p{
+	text-align: center;
+	font-size: 12px;
+	color: #FF6700;
+}
+
+figure{
+	width: 160px;
+	height: 115px;
+	
+	
+	
+}
+
+figure img {
+	width: 160px;
+	height: 115px;
+	margin: auto;
+	    border: 0px;
+
+	
+}
+
+figure h2 {
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 12px;
+}
+
+figure a {
+	color: #333;
+	text-decoration: none;
+	
+}
+
+figure p{color: #FF6700;}
+.topbox1  li h2{
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+
+}
+
+figcation{
+	
+}
+.search{
+	width: 300px;
+	height: 50px;
+	float: right;
+	margin-top: 20px;
+	
+
+}
+
+.inputbox{
+	width: 240px;
+	height: 49px;
+	border: 1px solid #b0b0b0;
+	float: right;
+	padding: 0px;
+	border-right: none;
+	text-decoration: none;
+	outline:none
+}
+
+#pc{
+	width: 51px;
+	height: 51px;
+	border: 1px solid #b0b0b0;
+	float: right;
+	background: #FFFFFF;
+	color: rgb(97,97,97);
+}
+#pc:hover{
+
+	background: #FF6700;
+	color: #FFFFFF;
+}
+.mydata{
+	width: 240px;
+	height: 250px;
+    float: left;
+    border: 1px solid #FF6700;
+    margin-left: 8px;
+    display: none;
+    background-color: #FFFFFF;
+    z-index: 10;
+	opacity: 10;
+	margin-top: -1px;
+	position: relative;
+   
+    
+}
+.mydata li{
+	width: 240px;
+height: 25px;
+font-size: 13px;
+text-indent: 10px;
+
+line-height: 25px;
+}
+.mydata li span{
+	margin-right: 10px;
+	float: right;
+	font-size: 12px;
+}
+
+
+.mydata li:hover{
+	background-color: #b0b0b0;
+}
+.addcolor{
+	background-color: #757575;
+}
