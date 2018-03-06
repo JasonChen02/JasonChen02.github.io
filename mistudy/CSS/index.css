@@ -1,4 +1,4 @@
-@import url("header.css");
+﻿@import url("header.css");
 @import url("webfont.css");
 @import url("flash.css");
 @import url("promotion.css");
@@ -19,6 +19,6 @@ body {
 
 @font-face {
 	font-family: 'iconfont';
-	src: url("/i/font/iconfont.eot");
-	src: url("/i/font/iconfont.eot?#iefix") format("embedded-opentype")
+	src: url("/font/iconfont.eot");
+	src: url("/font/iconfont.eot?#iefix") format("embedded-opentype")
 	
