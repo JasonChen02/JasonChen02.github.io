@@ -9,6 +9,7 @@
 @import url("viedo.css");
 @import url("content-text.css");
 @import url("footer.css");
+@import url("webfont.css");
 
 *{margin: 0px;padding: 0px;list-style: none;}
 body {
